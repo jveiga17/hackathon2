@@ -1,0 +1,26 @@
+node_modules/: Directory containing project dependencies installed using npm.
+
+public/: Directory holding static files accessible to clients.
+
+css/: Contains the main stylesheet.
+html/: HTML files for different pages like account, index, login, and register.
+scripts/: Contains client-side JavaScript.
+
+app.js: Handles various functions including making requests, user registration/login, and playlist generation.
+
+"source/: Main source code directory.
+
+controllers/: Holds the authController.js file managing authentication logic.
+db/: Database-related functionality resides in database.js.
+models/: Defines the user.js model for interacting with the user table in the database.
+routes/: Contains authRoutes.js specifying authentication-related routes."
+
+
+"package-lock.json: Auto-generated file for npm dependencies.
+
+package.json: Configuration file containing project metadata and dependencies."
+
+server.js: The main server file handling middleware setup, route configurations, and server start.
+
+
+-------------------------------------------------------------------

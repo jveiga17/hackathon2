@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Account</title>
+  <!-- css -->
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/forms.css">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Over+the+Rainbow&family=Salsa&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">
+        <h1 class="logo-text">dalePlay ></h1>
+      </div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+      </div>
+  </header>
+
+  <main class="main-acc">
+    <h1 class="h1-acc">Welcome!</h1>
+    <h4 class="h4-acc">Good seeing you again</h4>
+
+    <div class="playlist-generator">
+      <!-- dropdown -->
+      <label for="moodSelector">Select Mood:</label> 
+      <select id="moodSelector">
+        <option value="calm">Calm</option>
+        <option value="energizing">Energizing</option>
+        <option value="focus">Focus</option>
+      </select>
+      <!-- trigger the playlist -->
+      <button onclick="displayPlaylist()">Generate Playlist</button>
+
+      <!-- Tracks will be dynamically added here -->
+      <div id="songsContainer"></div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Relaxation Playlist Generator</p>
+  </footer>
+
+  <script src="../scripts/app.js"></script>
+</body>
+</html>

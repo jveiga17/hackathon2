@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+   <!-- css -->
+   <link rel="stylesheet" href="../css/main.css">
+   <link rel="stylesheet" href="../css/forms.css">
+   <!-- google fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Over+the+Rainbow&family=Salsa&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">
+        <h1 class="logo-text">dalePlay ></h1>
+      </div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Register</h2>
+    <!-- register.html -->
+    <form action="/auth/register" id="register-form" method="post" onsubmit="registerUser(event)">
+      <label class="label" for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+    
+      <label class="label" for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+    
+      <button type="submit">Register</button>
+    </form>
+
+  </main>
+  <script src="../scripts/app.js"></script>
+</body>
+</html>
+

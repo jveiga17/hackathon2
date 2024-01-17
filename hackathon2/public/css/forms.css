@@ -1,0 +1,67 @@
+h2 {
+  padding: 4%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+}
+
+label {
+  margin-bottom: 8px;
+  padding: 4%;
+}
+
+select {
+  margin: 20px 40px 20px 10px;
+}
+
+input,
+select {
+  border: none;
+  border-bottom: 2px solid #a3c7d6;
+  background-color: #624f82;
+  color: white;
+  padding: 8px;
+  margin-bottom: 16px;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+input:active,
+select:focus,
+select:active {
+  border-color: #fff;
+  outline: none;
+}
+
+#password {
+  margin-bottom: 50px;
+}
+
+button {
+  background-color: #624f82;
+  border: 2px solid #a3c7d6;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transitions */
+}
+
+button:hover {
+  background-color: #fff;
+  border-color: #624f82;
+  color: #624f82;
+}
+
+/* account.html */
+.main-acc {
+  min-height: 480px;
+}
+
+.h1-acc,
+.h4.acc {
+  padding: 4%;
+}
